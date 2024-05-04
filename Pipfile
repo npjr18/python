@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+orqviz = "*"
+python-dotenv = "*"
+torch = "<=1.11.0"
+scikit-learn = "*"
+torchvision = "*"
+pandas = "*"
+torchsummary = "*"
+pylatexenc = "*"
+ipympl = "*"
+autopep8 = "*"
+ipykernel = "*"
+jupyter = "*"
+jupyterlab = "*"
+appnope = "*"
+statsmodels = "*"
+joblib = "*"
+missingno = "*"
+plotly = "*"
+
+[requires]
+python_version = "3.10"
